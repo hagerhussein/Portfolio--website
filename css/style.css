@@ -17,6 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -76,7 +77,7 @@ a:focus {
 }
 
 a:visited {
-  color: var(--color-secondary);
+  color: #525B40;
 }
 
 a:active {
@@ -135,7 +136,7 @@ main {
 }
 
 .nav-links a:visited {
-  color: var(--color-secondary);
+  color: #525B40;
 }
 
 .nav-links a:hover,
@@ -298,6 +299,11 @@ Medium devices (640px and larger)
     float: left;
     padding: 10px;
   }
+
+  p {
+    font-size: 1.125rem;
+  }
+
 }
 
 
